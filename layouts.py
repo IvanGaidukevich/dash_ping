@@ -10,7 +10,7 @@ def create_layout():
     return dbc.Container([
        # Хедер
        html.Div([
-            html.H1("Анализ пингвинов Антарктики", className="main-header"),
+            html.H1("Анализ пингвинов Антарктики!", className="main-header"),
             html.H2("Исследование характеристик пингвинов по видам", className="main-subheader"),
         ], className="header"
         ),
